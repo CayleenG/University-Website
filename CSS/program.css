@@ -1,0 +1,76 @@
+.bodyy{
+    margin: 2%;
+}
+
+.programheader p{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.headers{
+    float: left;
+    width: 30%;
+    padding-left: 15%;
+    
+}
+
+
+.videos{
+    float: left;
+    width: 40%;
+    margin-left: 3%;
+
+}
+
+video{
+    width:100%;
+}
+
+
+table{
+    clear:both;
+    margin: 0 auto;
+}
+
+#collegetable{
+    width: 300px;
+    background-color: rgb(185, 132, 144);
+}
+
+#programstable{
+    width: 400px;
+    background-color: rgb(185, 132, 144);
+}
+
+.dulafe{
+    width: 100px;
+    background-color: rgb(185, 132, 144);
+}
+
+
+
+th,td{
+    height: 23px;
+}
+
+.headers h3, .videos{
+    padding-bottom: 30px;
+
+}
+
+table,th,td,tr{
+
+    border: solid 1px;
+    border-collapse: collapse;
+    text-align: center;
+    
+    }
+
+tr:nth-child(odd) {
+    background-color: rgb(238, 175, 185);
+  }
+
+tbody>tr:hover{
+    background-color: rgb(207, 191, 191);
+}

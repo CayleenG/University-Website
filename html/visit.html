@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cayleen Gunawan">
+    <meta name=" description" content="Assignment 3 Cayleen">
+    <meta name="keyword" content="HKIU, University">
+    <title> Visit </title>
+    <link rel="stylesheet" href="../CSS/basic.css">
+    <link rel="stylesheet" media="screen" href="../CSS/visit.css">
+    <link rel="icon" href="../image/logo2.png">
+    
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../image/logo.png" width="400" height="100" alt="HKIU logo"></a>
+        <h2>Hong Kong Industrial University</h2>
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li class="navli"><a class="odd" href="../index.html">Home</a></li>
+            <li class="navli"><a class ="even" href="about.html">About</a></li>
+            <li class="navli"><a class="odd" href="apply.html">Apply</a></li>
+            <li class="navli"><a class ="even" href="visit.html">Visit</a></li>
+            <li class="navli"><a class="odd" href="program.html">Program</a></li>
+            <li class="navli"><a class ="even" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bodyy">
+
+        <div class="visit">
+
+            <p>We warmly welcome you to visit us at our Kowloon campus and experience our vibrant learning community. Our campus is located in the Hong Kong Kowloon High-Tech Park, where we collaborate closely with institutes of the Chinese Academy of Sciences.
+            </p>
+            <p>During your visit, you can explore our world-class facilities, including the Protein Folding Science Center, Hong Kong Advanced Computing Equipment, Hong Kong Ultrafast Laser Facility, Hong Kong Electron-Positron Collider, and Hong Kong Supercomputer Facility. These facilities are available to our faculty, students, and researchers worldwide.
+            </p>
+            <p>You will also have the chance to meet our renowned scholars and experts from home and abroad committed to providing students with cutting-edge knowledge and skills in their respective fields. Our faculty members are recognized leaders in their fields, and their research has been published in prestigious journals such as Cell, Nature, and Science.
+            </p>
+            <p>We hope you will come and visit us soon to experience firsthand the dynamic and innovative community at Hong Kong Industrial University.
+            </p>
+
+        </div>
+
+<br>
+
+        <div class="locandcont">
+            <div class="location">
+                <img src="../image/location.jpg" alt="location">
+            </div>
+
+            <div class="contact">
+                <h3>Location</h3>
+                    <p>Address: Tat Chee Avenue, Kowloon, Hong Kong SAR</p>
+                    
+                    <p>Tel: (852) 1234 5678</p>
+                    
+                    <p>Fax: (852) 8765 4321</p>
+                    
+                    <p>Email:<a href="mailto:visit@hkiu.edu.hk"> visit@hkiu.edu.hk</a></p>
+            </div>
+        </div>
+
+            <div class="openday">
+                <br><br>
+                <h3>Hong Kong Industrial University is having an open day on campus! Please make a reservation to visit our campus!</h3>
+                <br>
+                <form method="get" action="#" id="visitform">
+                    <fieldset>
+                        <legend>Booking Information</legend>
+                        <table>
+                            <tr>
+                            <td class="alignn"><label for="date">Date:</label></td>
+                            <td><input type="date" id="date" name="date" value=""></td>
+                            </tr>
+
+                            <tr>
+                            <td class="alignn"><label for="time">Time:</label></td>
+                            <td><select id="time" name="time">
+                                <option value="08.00-09.30 AM">08.00-09.30 AM</option>
+                                <option value="10.00-11.30 AM">10.00-11.30 AM</option>
+                                <option value="2.00-3.30 PM">2.00-3.30 AM</option>
+                                <option value="4.00-5.30 PM">4.00-5.30 AM</option>
+                            </select></td>
+                            </tr>
+
+                            <tr>
+                            <td class="alignn"><label for="visitors">No. of Visitors: </label></td>
+                            <td><input type="number" id="visitors" name="visitors"></td>
+                            </tr>
+                        </table>
+
+                        <div id = "error">
+                        </div>
+                                  
+                        <input type="submit" id="OK" name= "OK" value="Check Availability">
+                        <input type="reset" id="clear" name="clear" value="Reset">
+                        
+    
+                    </fieldset>
+                </form>
+        
+            </div>
+
+    </div>
+
+    <footer>
+        <img src="../image/footer_logo.png" width="300" height="100" alt="footer logo">
+        <p>&copy; CityU 2023 sources of images and text from Wikipedia and Courtesy of Icon pack by
+        Icons8 -- designed by <a href="design.html">Cayleen Gunawan</a></p>
+    </footer>
+    <script src="https://personal.cs.cityu.edu.hk/~cs2204/2023/cw3cs2204.js"></script>
+    <script src="../JS/visit.js"></script>
+
+</body>
+</html>

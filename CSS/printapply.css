@@ -1,0 +1,180 @@
+.print{
+    display:none !important;
+}
+
+.bodyy{
+    margin: 2%;
+}
+
+.college > p{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 900;
+
+}
+
+table, th, td, tr{
+    border-width: 2px;
+    border-style:solid;
+    border-collapse:collapse;
+}
+
+th{
+    background-color: rgb(185, 132, 144);
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(238, 175, 185);
+  }
+
+tbody>tr:hover{
+    background-color: rgb(207, 191, 191);
+}
+
+.submitclear > a{
+    padding: 3px 5px 3px 5px;
+    cursor: default;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    text-decoration:none;
+    border-color: black;
+    color: black;
+}
+
+.submitclear > a:focus{
+    pointer-events:none;
+    cursor: default;
+}
+
+
+.heading{
+    display:flex;
+    flex-direction: column;
+    float:left;
+    font-weight: bold;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: none;
+    background-color: lightgrey;
+    border-radius: 5px 5px 0px 0px;
+    width: 350px;
+}
+
+
+.heading:hover {
+    background-color: white;
+    
+}
+
+
+#heng:hover ~ #coleng{
+    display: flex;
+    justify-items: center;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.colleges:hover{
+    display: flex;
+    justify-items: center;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+
+.colleges:hover ~ #heng {
+    background-color: white;
+
+}
+
+#hsci:hover ~ #colsci {
+    display: flex;
+    justify-items: center;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#hint:hover ~ #colinter {
+    display: flex;
+    justify-items: center;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#hint:has(~ #colinter:hover){
+    background-color: white;
+}
+
+#heng:has(~ #coleng:hover){
+    background-color: white;
+}
+
+#hsci:has(~ #colsci:hover){
+    background-color: white;
+}
+
+
+.colleges{
+    display:none;
+    width: 100%;
+}
+    
+.formceng{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding:5px;
+    width: 30%;
+    background-color:white;
+
+}
+
+.formsci{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding:5px;
+    width: 30%;
+    background-color:white;
+
+}
+.forminter{
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    padding:5px;
+    width: 30%;
+    background-color:white;
+
+}
+
+
+.chosenmajor{
+    clear:both;
+}
+
+#end{
+    padding-top: 0.5%;
+}
+
+#thcol{
+    width:250px;
+
+}
+
+#thmaj{
+    width:250px;
+
+}
+
+#thrank{
+    width:50px;
+
+}
+

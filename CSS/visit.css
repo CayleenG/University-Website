@@ -1,0 +1,59 @@
+.alignn{
+
+    text-align: right;
+
+}
+
+#OK{
+    margin-left: 115px;
+    margin-bottom: 20px;
+}
+
+#error{
+    text-align: center;
+    color: red;
+}
+
+.bodyy{
+    margin: 2%;
+}
+
+.location{
+    float:left;
+    width: 50%;
+    padding: 0 5%;
+}
+
+.location img{
+    width: 100%;
+}
+
+.contact{
+    float:left;
+    width: 30%;
+    
+}
+
+.openday{
+    clear: both;
+    
+}
+
+.openday h3{
+    text-align: center;
+}
+
+fieldset{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.visit p{
+    text-align: justify;
+}
+
+.visit p::first-letter{
+    font-size: larger;
+}
+
+

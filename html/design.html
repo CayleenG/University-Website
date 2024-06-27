@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cayleen Gunawan">
+    <meta name="description" content="Assignment 3 Cayleen">
+    <meta name="keyword" content="HKIU, University">
+    <title> Design </title>
+    <link rel="stylesheet" href="../CSS/basic.css">
+    <link rel="stylesheet" href="../CSS/design.css">
+    <link rel="icon" href="../image/logo2.png">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../image/logo.png" width="400" height="100" alt="HKIU logo"></a>
+        <h2>Hong Kong Industrial University</h2>
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li class="navli"><a class="odd" href="../index.html">Home</a></li>
+            <li class="navli"><a class ="even" href="about.html">About</a></li>
+            <li class="navli"><a class="odd" href="apply.html">Apply</a></li>
+            <li class="navli"><a class ="even" href="visit.html">Visit</a></li>
+            <li class="navli"><a class="odd" href="program.html">Program</a></li>
+            <li class="navli"><a class ="even" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="bodyy">
+        <p class="welcome"> Welcome to HKIU</p>
+        <br>
+        <div class="information">
+
+            
+            <h2>Design Page</h2>
+            <h4>Name: Cayleen Gunawan</h4>
+            <h4>SID: 57903224</h4>
+
+        </div>
+
+        <div class="explanation">
+            <div class="position">
+                <h3> POSITIONING </h3>
+                <p>1. basic.css</p>
+                    <ul>
+                        <li>relative positioning on line 59 for navigation bar menus</li>
+                        <li>absolute positioning on line 67, 79, 92, 105 for navigation bar animations </li>
+                    </ul>
+                <p>2. index.css</p>
+                    <ul>
+                        <li>relative positioning on line 2, 10 for making the apply button image comes to the front by using z-index and for the apply button div so that the animation color will not overflow</li>
+                        <li>absolute positioning on line 25, 33 for the apply button animations</li>
+                    </ul>
+                <p>3. contact.css</p>
+                    <ul>
+                        <li>absolute positioning on line 43 for footer so that the bottom can be set to 0 from its parent and the footer stays at the bottom of the page </li>
+                    </ul>
+            </div>
+            <div class="css3">
+                <h3>CSS3 TECHNIQUES</h3>
+                    <p>1. basic.css</p>
+                    <ul>
+                        <li>radial-gradient on line 5 and 145 for the header and footer backgrounds</li>
+                        <li>linear gradient on line 33 for navigation bar</li>
+                        <li>transform scale on line 122 for navigation bar hover animation</li>
+                        <li>transition on line 44, 58, 73, 85, 98, 111 for navigation bar</li>
+                        <li>animation with ease-in and forwards properties on line 36 for navigation bar</li>
+                        <li>rounded corner on line 49, 75, 113, 118 for navigation bar hover animation </li>
+                    </ul>
+                    <p>2. index.css</p>
+                    <ul>
+                        <li>box shadow on line 16 and 41 for apply button</li>
+                        <li>conic gradient on line 20 for apply button animation</li>
+                        <li>rotation transform on line 46 and 49 for apply button animation's direction</li>
+                        <li>animation with linear and infinite properties on line 27</li>
+                    </ul>
+                    <p>3. apply.css</p>
+                    <ul>
+                        <li>rounded corner on line 33 for submit and clear button</li>
+                        <li>rounded corner on line 56 for college headings</li>
+                        <li>rounded corner on line 125, 135, 144 for the forms' border</li>
+                    </ul>
+                
+            </div>
+            <div class="styles">
+                <h3>STYLES</h3>
+                <ol>
+                    <li>The webpage's layouts are done by using div containers and float.</li>
+                    <li>There's a basic.css file that contains general styling for heading, navigation bar, and footer</li>
+                    <li>Each page has its own external style sheet</li>
+                </ol>
+            </div>
+            <div class="event">
+                <h3>EVENT HANDLERS</h3>
+                <p>1. program.js</p>
+                <ul>
+                    <li>window-on-load handler on line 18-23 to display a random message every time the window is loaded and the message will change every 3 seconds</li>
+                </ul>
+                <p>2. visit.js</p>
+                <ul>
+                    <li>submit handler on line 37-60 so it will display an error/success message after the check availability (submit) button is clicked</li>
+                </ul>
+                <p>3. apply.js</p>
+                <ul>
+                    <li>window-on-load handler on line 9-16 to display the college of engineering form</li>
+                    <li>click handlers on line 18-43 for each heading so it display the form for the clicked college heading</li>
+                    <li>click handler for rank of choice buttons on line 53-105 so that it will run number check(+ all other related functions to show alert, append information to the table, etc) </li>
+                    <li>click handler for the submit button on line 175-202 to show a text that gives information about whether the application is successful or there's still a gap on the table.</li>
+                </ul>
+                <p>4. apply.html</p>
+                <ul>
+                    <li>click handler for clear button on line 214</li>
+                </ul>
+            </div>
+            <div class="letconst">
+                <h3>LET & CONST</h3>
+                <p>1. program.js</p>
+                <ul>
+                    <li>const on line 7, 8, and 19 for declaring unchangable variable (i.e. element from html)</li>
+                    <li>let on line 9 for declaring a block scoped variable (because it is only used for boolean check)</li>
+                </ul>
+                <p>2. visit.js</p>
+                <ul>
+                    <li>const on line 1-4, 18-23, 39-42 for declaring variables that are unchanged</li>
+                </ul>
+                <p>3. apply.js</p>
+                <ul>
+                    <li>const on line 1-7, 56, 57, 60, 98, 129, 132, 148, 158, 159, 161, 165, 174, 189, 190, 211, 231, 235, 240, 241 for unchanged variables (elements from html)</li>
+                    <li>const on line 46 for array that is unchanged</li>
+                    <li>const on line 61, 163 for the college name that is unchanged throughout the function execution</li>
+                    <li>const on line 121-127, 178-184, for the date</li>
+                    <li>let on line 75, 150, 194, 205, 242 for loop iteration so that the variable only works for a certain block and won't affect other same named variable (i.e 'i'). I also use let for it because the value will change after each loop/iteration.
+                    </li>
+                </ul>
+            </div>
+            <div class="setmap">
+                <h3>SET & MAP</h3>
+                <ol>
+                    <li>Set on line 51 & 52 to store the major and rank chosen. I used set because of its better time complexity and it requires less line of code than if I use array and loop over all the index. Using set also automatically removes duplicate but I didn't use this feature because there will be no duplicate since the check (by using has) is done before the append.</li>
+                </ol>
+            </div>
+            <div class="source">
+                <h3>Other Source</h3>
+                <ol>
+                    <li>Animation for apply button on index.html is inspired by <a href="https://www.youtube.com/watch?v=wqb0kaRdyyA">https://www.youtube.com/watch?v=wqb0kaRdyyA</a></li>
+                </ol>
+            </div>
+
+        </div>
+
+    </div>
+    
+    <footer>
+        <img src="../image/footer_logo.png" width="300" height="100" alt="footer logo">
+        <p>&copy; CityU 2023 sources of images and text from Wikipedia and Courtesy of Icon pack by
+        Icons8 -- designed by <a href="design.html">Cayleen Gunawan</a></p>
+    </footer>
+
+</body>
+</html>

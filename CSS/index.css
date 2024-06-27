@@ -1,0 +1,118 @@
+.applyimg{
+    position:relative;
+    z-index: 10;
+}
+
+
+
+.applybutton {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px #0000008c;
+}
+.applybutton::before{
+    content: "";
+    background-image: conic-gradient(
+        rgb(255, 0, 64) 20deg,
+        transparent 120deg
+    );
+    width: 150%;
+    height: 150%;
+    position: absolute;
+    animation: rotate 1.5s linear infinite;
+    z-index: 0;
+}
+.applybutton::after{
+    width: 190px;
+    height: 190px;
+    background: #101010;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff0052;
+    font-size: larger;
+    letter-spacing: 5px;
+    box-shadow: inset 20px 20px 20px #0000008c;
+}
+
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+
+
+
+.hkiu{
+
+    margin: 2%;
+    padding: 0 2% 0 2%;
+    text-align: justify;
+}
+
+dd{
+    text-align: justify;
+    padding-bottom: 5px;
+}
+
+
+
+.hkiu::first-line{
+    font-size:larger;
+    font-weight: bold;
+    
+}
+
+
+
+
+dt{
+    font-weight: bold;
+}
+
+.info{
+    float:left;
+    width: 48%;
+    padding: 0 0 0 2%;
+    margin: 0 0 2% 2%;
+
+}
+
+dt{
+    background-color: rgb(212, 169, 179);
+    width: fit-content;
+    padding: 0 1% 0 0;
+    margin: 0 1% 0 0;
+}
+
+.mapapply{
+    float:right;
+    width: 40%;
+    padding: 0 2% 2% 0;
+    margin: 0 2% 2% 0;
+
+}
+
+.dtloc{
+    margin-bottom: 1%;
+}
+
+.locs{
+    width: 100%;
+}
+
+.infomap{
+    background-color:Pink;
+    margin-top: auto;
+}
+
+

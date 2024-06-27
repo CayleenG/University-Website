@@ -1,0 +1,37 @@
+.bodyy{
+    margin: 2%;
+}
+
+.information{
+    border: solid 1px;
+    width: fit-content;
+    padding: 2%;
+}
+
+.position h3{
+    margin-top: 2%;
+    background-color: rgb(236, 174, 188);
+}
+
+h3{
+    margin-top: 2%;
+    background-color: rgb(236, 174, 188);
+}
+
+.styles h3{
+    margin-top: 2%;
+    background-color: rgb(236, 174, 188);
+}
+
+.source h3{
+    margin-top: 2%;
+    background-color: rgb(236, 174, 188);
+}
+
+.welcome{
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgb(236, 174, 188);
+
+}

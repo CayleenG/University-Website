@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Cayleen Gunawan">
+    <meta name=" description" content="Assignment 3 Cayleen">
+    <meta name="keyword" content="HKIU, University">
+    <title> Program </title>
+    <link rel="stylesheet" href="../CSS/basic.css">
+    <link rel="stylesheet" media="screen" href="../CSS/program.css">
+    <link rel="icon" href="../image/logo2.png">
+    
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../image/logo.png" width="400" height="100" alt="HKIU logo"></a>
+        <h2>Hong Kong Industrial University</h2>
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li class="navli"><a class="odd" href="../index.html">Home</a></li>
+            <li class="navli"><a class ="even" href="about.html">About</a></li>
+            <li class="navli"><a class="odd" href="apply.html">Apply</a></li>
+            <li class="navli"><a class ="even" href="visit.html">Visit</a></li>
+            <li class="navli"><a class="odd" href="program.html">Program</a></li>
+            <li class="navli"><a class ="even" href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="bodyy">
+        <div class="programheader">
+            <p>Program</p>
+            <div class="program1">
+                <br><br>
+                <div class="headers">
+                    <h3 id="infoblock">Join Hong Kong Industrial University's College of Science for world-class education and research opportunities in science and technology! 20 QUOTAS LEFT!
+                    </h3>
+                </div>
+                <div class="videos">
+                    <video autoplay controls muted id="vidd">
+                        <source id="vidsrc" src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video1.mp4" type="Video/mp4">
+                    </video>
+                </div>
+                <script>
+                    var videoElement = document.getElementById("vidd");
+                    var videoSrc = document.getElementById("vidsrc");
+                    let currentVideoIndex = 0;
+                    function switchVideoSource() {
+                        currentVideoIndex++;
+                        if (currentVideoIndex % 2 == 0) {
+                            videoElement.innerHTML =
+                                '<source src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video1.mp4" type="video/mp4">' +
+                                '<source src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video1.mkv" type="video/mkv">';
+                        } else {
+                            videoElement.innerHTML =
+                                '<source src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video2.mp4" type="video/mp4">' +
+                                '<source src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video2.mkv" type="video/mkv">';
+                        }
+                        videoElement.load();
+                        videoElement.play();
+                    }
+    
+                    // Add an event listener to change the video source when the current video ends
+                    videoElement.addEventListener("ended", switchVideoSource, false);
+                </script>
+                                       
+
+            </div>
+            
+
+            
+            <!-- <div class="program2">
+                <div class="headers">
+                    <br>
+                    <h3>Join the future of engineering with Hong Kong Industrial University's College of Engineering, offering innovative programs and world-class faculty to prepare you for success in the field! 40 QUOTAS LEFT!
+                    </h3>
+                </div>
+                <div class="videos">
+                    <br>
+                <video controls="controls" autoplay muted loop>
+                    <source src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video2.mp4" type="video/mp4">
+                    <source src="https://personal.cs.cityu.edu.hk/~cs2204/2023/video/video2.mkv" type="video/mkv">
+                </video>
+                <br><br>
+                </div>
+            </div> -->
+            
+        </div>
+
+        
+
+        <div class="programTable">
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th id="collegetable">College</th>
+                        <th id="programstable">Program</th>
+                        <th class="dulafe">Duration</th>
+                        <th class="dulafe">Languange</th>
+                        <th class="dulafe">Fee</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>College of Engineering</td>
+                        <td>BSc in Computer Science and Technology</td>
+                        <td>4 years	</td>
+                        <td>English</td>
+                        <td>HK$42,100</td>
+                    </tr>
+                    <tr>
+                        <td>College of Engineering</td>
+                        <td>BEng in Electronic Information</td>
+                        <td>4 years	</td>
+                        <td>English</td>
+                        <td>HK$42,100</td>
+                    </tr>
+                    <tr>
+                        <td>College of Engineering</td>
+                        <td>BEng in Materials Science and Engineering</td>
+                        <td>4 years	</td>
+                        <td>English</td>
+                        <td>HK$42,100</td>
+                    </tr>
+                    <tr>
+                        <td>College of Engineering</td>
+                        <td>BEng in Materials and Chemicals</td>
+                        <td>4 years	</td>
+                        <td>English</td>
+                        <td>HK$42,100</td>
+                    </tr>
+                    <tr>
+                        <td>College of Science</td>
+                        <td>BSc in Physics</td>
+                        <td>4 years	</td>
+                        <td>English</td>
+                        <td>HK$42,100</td>
+                    </tr>
+                    <tr>
+                        <td>College of Science</td>
+                        <td>BSc in Chemistry</td>
+                        <td>4 years	</td>
+                        <td>English</td>
+                        <td>HK$42,100</td>
+                    </tr>
+                    <tr>
+                        <td>College of Science</td>
+                        <td>BSc in Biology</td>
+                        <td>4 years	</td>
+                        <td>English</td>
+                        <td>HK$42,100</td>
+                    </tr>
+                    <tr>
+                        <td>College of Interdisciplinary Studies</td>
+                        <td>BSc in Cognitive Science</td>
+                        <td>4 years	</td>
+                        <td>English</td>
+                        <td>HK$42,100</td>
+                    </tr>
+                    <tr>
+                        <td>College of Interdisciplinary Studies</td>
+                        <td>BEng in Biomedical Engineering</td>
+                        <td>4 years	</td>
+                        <td>English</td>
+                        <td>HK$42,100</td>
+                    </tr>
+                    <tr>
+                        <td>College of Interdisciplinary Studies</td>
+                        <td>BEng in Electronics and Information Technology</td>
+                        <td>4 years	</td>
+                        <td>English</td>
+                        <td>HK$42,100</td>
+                    </tr>
+                    <tr>
+                        <td>College of Interdisciplinary Studies</td>
+                        <td>BEng in Biology and Medicine</td>
+                        <td>4 years	</td>
+                        <td>English</td>
+                        <td>HK$42,100</td>
+                    </tr>
+                </tbody>
+
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        <img src="../image/footer_logo.png" width="300" height="100" alt="footer logo">
+        <p>&copy;CityU 2023 sources of images and text from Wikipedia and Courtesy of Icon pack by
+        Icons8 -- designed by <a href="design.html">Cayleen Gunawan</a></p>
+    </footer>
+    <script src="../JS/program.js"></script>
+</body>
+</html>
